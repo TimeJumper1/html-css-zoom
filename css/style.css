@@ -9,6 +9,7 @@ body{
     font-family: 'Lato', sans-serif;
     color: white;
 }
+
 /* header */
 header{
     height: 70px;
@@ -27,10 +28,36 @@ header{
 main{
     background-color: black;
     height: calc(100vh - 140px );
+    overflow-y: auto;
 }
 .main-container{
     display: flex;
     margin: auto;
     width: 90%;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+
     
 }
+.partecipant{
+    position: relative;
+    width: 180px;
+    height: 100px;
+    margin: 3px;
+    background-image: url(../img/image.jpg);
+    background-size: cover;
+    flex-shrink: 0;
+    
+}
+.partecipant-name{
+    font-size: 10px;
+    background-color:rgba(101, 114, 124, 0.7) ;
+    padding: 5px 8px;
+    width:50% ;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+footer
