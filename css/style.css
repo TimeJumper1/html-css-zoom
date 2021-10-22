@@ -1,0 +1,36 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* common */
+body{
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+/* header */
+header{
+    height: 70px;
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+.header-menu{
+    background-color: #4a4a4a;
+    padding: 5px 4px;
+    border-radius: 3px;
+    margin: 4px;
+}
+/* main */
+main{
+    background-color: black;
+    height: calc(100vh - 140px );
+}
+.main-container{
+    display: flex;
+    margin: auto;
+    width: 90%;
+    
+}
