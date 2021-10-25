@@ -82,7 +82,7 @@ footer{
     font-size: 11px;
     margin: 8px;
 }
-.active i{
+.active i , span{
     color: #4bc800;
 }
 .end-meeting{
